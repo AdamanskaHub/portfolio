@@ -29,6 +29,7 @@ body {
   box-sizing: border-box !important;
   font-family: var(--sans);
   max-width: 100vw;
+  color:var(--text);
 }
 
 .menu{
@@ -42,6 +43,7 @@ body {
   align-items: baseline;
   font-size: 24px;
   color: var(--titletext);
+  z-index: 99;
 }
 
 .menu a{
@@ -114,4 +116,100 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+.case-image{
+  position: relative;
+  width: 50vw;
+}
+.case-image-reversed{
+  display: flex;
+  justify-content: flex-end;
+}
+
+.rect{
+  height: 50vh;
+  width: 20vw;
+  background-color: var(--box1);
+}
+.rect2{
+  background-color: var(--box2);
+  align-self: flex-end;
+}
+.rect3{
+  background-color: var(--box3);
+}
+
+.project-one{
+  position: absolute;
+  left: 10px;
+  top: 10px;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+  max-width: 600px;
+  width: calc(50vw - 30px);
+  top: 50%;
+  transform: translate(0%,-50%);
+  border-radius: 10px;
+}
+
+.project-reversed{
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+  max-width: 600px;
+  width: calc(50vw - 30px);
+  top: 50%;
+  transform: translate(0%,-50%);
+  border-radius: 10px;
+}
+
+.case-text{
+  margin-left: 60px;
+  width: 50vw;
+}
+.case-text-reversed{
+  width: 50vw;
+  margin-right: 60px;
+}
+
+h3{
+  font-family: var(--serif);
+  font-size: 28px;
+  margin: 0;
+}
+.case-text p, .case-text-reversed p{
+  font-size: 16px;
+  margin: 0 0 10px;
+}
+
+.blobs{
+  display: flex;
+  flex-wrap: wrap;
+}
+.blob{
+  padding: 4px 10px;
+  margin: 0 6px 6px 0;
+  border-radius: 50px;
+  border: 1px var(--text) solid;
+}
+
+
+footer{
+  height: 80px;
+  font-size: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--footer);
+}
+
+.footer-text{
+  transition: 0.25s;
+  padding: 4px 8px;
+}
+.footer-text:hover,
+.footer-text:focus {
+  box-shadow: inset 9rem 0 0 0 var(--text);
+  color:var(--footer);
 }
