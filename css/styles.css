@@ -52,10 +52,43 @@ body {
   margin-left: 10px;
   text-transform: uppercase;
   color: var(--titletext);
+  /* transition: all 0.25s ease-in-out; */
+  padding-bottom: 4px;
+  position: relative;
+  cursor: pointer;
 }
-
 .menu a:hover{
   color: var(--titletexthover);
+}
+
+.menu a:before,.menu a:after{
+  content: "";
+  position: absolute;
+  bottom: 2px;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background-color: var(--titletexthover);
+}
+.menu a:before {
+  opacity: 0;
+  transform: translateY(-8px);
+  transition: transform 0s cubic-bezier(0.175, 0.885, 0.32, 1.275), opacity 0s;
+}
+.menu a:after {
+  opacity: 0;
+  transform: translateY(4px);
+  transition: transform 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275), opacity 0.2s;
+}
+.menu a:hover:before, .menu a:hover:after, .menu a:focus:before, .menu a:focus:after {
+  opacity: 1;
+  transform: translateY(0);
+}
+.menu a:hover:before, .menu a:focus:before {
+  transition: transform 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275), opacity 0.2s;
+}
+.menu a:hover:after, .menu a:focus:after {
+  transition: transform 0s 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275), opacity 0s 0.2s;
 }
 
 .name{
