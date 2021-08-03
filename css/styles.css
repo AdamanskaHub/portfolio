@@ -1,3 +1,70 @@
-p {
-  color:cadetblue;
+:root {
+  --bg: #D6E3DC;
+  --titletext: #7C5E66;
+  --text: #7C5E66;
+  --box1:#FFC7D4;
+  --box2:#D6E3DC;
+  --box3:#A28089;
+  --footer: #FFC7D4;
+}
+
+@media (prefers-color: hot) {
+  :root {
+    --bg: #D2416D;
+    --titletext: #fff;
+    --text: #362A20;
+    --box1:#6D826B;
+    --box2:#F4E0C2;
+    --box3:#D2416C;
+    --footer: #F4E0C2;
+  }
+}
+
+body {
+  padding: 40px;
+  font-family: 'Source Sans Pro', Arial, Helvetica, sans-serif;
+}
+
+.menu{
+  position: fixed;
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.menu>a{
+  text-decoration: none;
+  font-size: 18px;
+  margin-left: 10px;
+}
+
+.menu>a:hover{
+  color: red;
+}
+
+.name{
+  font-family: 'Source Serif Pro', Georgia, 'Times New Roman', Times, serif;
+  /* font-size: 32px; */
+  /* font-weight: bold; */
+}
+
+.hero{
+  height: 100vh;
+  padding-top: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #D6E3DC;
+}
+
+.left{
+  max-width: 560px;
+  text-align: center;
+}
+
+.hero>img{
+  margin-left: 20px;
 }
