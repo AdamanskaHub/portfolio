@@ -246,3 +246,29 @@ footer{
   box-shadow: inset 9rem 0 0 0 var(--text);
   color:var(--footer);
 }
+
+
+@media only screen and (max-width: 600px) {
+  .project-left{
+    flex-direction: column;
+    justify-content: center;
+  }
+  .case-image{
+  width: 100%;
+  margin-bottom: 20px;
+  }
+  .project-one{
+    width: 90%;
+    margin: 0 auto;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .case-text{
+  margin-left: 0px;
+  width: 100%;
+}
+.case-text-reversed{
+  width: 100%;
+  margin-right: 0px;
+}
+}
