@@ -109,12 +109,16 @@ a{text-decoration: none;}
 
 .left{
   box-sizing: border-box;
-  max-width: 760px;
   padding: 0 30px;
   width: 60vw;
   text-align: center;
   color: var(--text);
   position: relative;
+}
+
+.left-container{
+  max-width: 760px;
+  margin: 0 auto;
 }
 
 .hero-title{
