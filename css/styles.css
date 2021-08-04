@@ -42,14 +42,14 @@ a{text-decoration: none;}
   display: flex;
   justify-content: space-between;
   align-items: baseline;
-  font-size: 28px;
+  font-size: 32px;
   color: var(--titletext);
   z-index: 99;
 }
 
 .menu a{
   text-decoration: none;
-  font-size: 18px;
+  font-size: 20px;
   margin-left: 10px;
   text-transform: uppercase;
   color: var(--titletext);
@@ -109,9 +109,9 @@ a{text-decoration: none;}
 
 .left{
   box-sizing: border-box;
-  max-width: 560px;
+  max-width: 760px;
   padding: 0 20px;
-  width: 70vw;
+  width: 60vw;
   text-align: center;
   color: var(--text);
   position: relative;
@@ -127,7 +127,7 @@ a{text-decoration: none;}
 .hero-subtext{
   margin: 0 auto;
   font-family: var(--sans);
-  font-size: 28px;
+  font-size: 24px;
 }
 
 .bolder{
@@ -138,13 +138,12 @@ a{text-decoration: none;}
   position: absolute;
   right: 0;
   bottom: 0;
-  max-width: 50vw;
+  max-width: 40vw;
   max-height: 820px
 }
 
 .project-left{
   box-sizing: border-box;
-  max-width: 1200px;
   padding:20px;
   height: 95vh;
   display: flex;
@@ -199,8 +198,9 @@ a{text-decoration: none;}
 
 .case-text{
   margin-left: 60px;
-  width: 50vw;
-  max-width: 800px;
+width: 50vw;
+max-width: 800px;
+box-sizing: border-box;
 }
 .case-text-reversed{
   width: 50vw;
@@ -210,11 +210,11 @@ a{text-decoration: none;}
 
 h3{
   font-family: var(--serif);
-  font-size: 28px;
+  font-size: 48px;
   margin: 0;
 }
 .case-text p, .case-text-reversed p{
-  font-size: 16px;
+  font-size: 20px;
   margin: 0 0 10px;
 }
 
@@ -232,7 +232,7 @@ h3{
 
 footer{
   height: 80px;
-  font-size: 16px;
+  font-size: 20px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -246,7 +246,7 @@ footer{
 }
 .footer-text:hover,
 .footer-text:focus {
-  box-shadow: inset 9rem 0 0 0 var(--text);
+  box-shadow: inset 12rem 0 0 0 var(--text);
   color:var(--footer);
 }
 

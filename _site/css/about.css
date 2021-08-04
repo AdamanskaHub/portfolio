@@ -16,21 +16,21 @@ a{text-decoration: none;}
   justify-content: center;
   align-items: center;
   min-height: 95vh;
-  height: 550px;
+  height: 650px;
   background-color: transparent;
 }
 
 #profilepic{
-  max-width: 120px;
-  border-radius: 150px;
+  max-width: 180px;
+  border-radius: 200px;
   position:static;
   margin-bottom: 20px;
 }
 
 .about-text{
-  max-width: 400px;
+  max-width: 640px;
   margin: 0 0 10px;
-  font-size: 14px;
+  font-size: 20px;
 }
 
 .icons{
