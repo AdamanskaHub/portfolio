@@ -1,0 +1,47 @@
+
+
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box !important;
+  font-family: var(--sans);
+  max-width: 100vw;
+  color:var(--text);
+}
+a{text-decoration: none;}
+
+
+.about-hero{
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 95vh;
+  background-color: transparent;
+}
+
+#profilepic{
+  max-width: 120px;
+  border-radius: 150px;
+  position:static;
+  margin-bottom: 20px;
+}
+
+.about-text{
+  max-width: 400px;
+  margin: 0 0 10px;
+  font-size: 14px;
+}
+
+.icons{
+  display: flex;
+}
+
+.icon{
+  margin: 10px 10px 0;
+  position: static;
+  width: 20px;
+  height: auto;
+}
+svg>path{
+  fill:var(--titletext);
+}
