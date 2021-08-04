@@ -15,7 +15,8 @@ a{text-decoration: none;}
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 95vh;
+  min-height: 95vh;
+  height: 500px;
   background-color: transparent;
 }
 
@@ -38,10 +39,11 @@ a{text-decoration: none;}
 
 .icon{
   margin: 10px 10px 0;
-  position: static;
-  width: 20px;
-  height: auto;
 }
 svg>path{
   fill:var(--titletext);
+}
+
+.linkor:hover svg>path{
+  fill:var(--titletexthover);
 }
