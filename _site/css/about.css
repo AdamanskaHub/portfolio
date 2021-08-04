@@ -47,3 +47,9 @@ svg>path{
 .linkor:hover svg>path{
   fill:var(--titletexthover);
 }
+
+@media only screen and (max-width: 600px) {
+  .about-hero{
+    height: 600px;
+  }
+}
