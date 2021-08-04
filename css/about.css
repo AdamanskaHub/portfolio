@@ -16,7 +16,7 @@ a{text-decoration: none;}
   justify-content: center;
   align-items: center;
   min-height: 95vh;
-  height: 500px;
+  height: 550px;
   background-color: transparent;
 }
 
@@ -35,6 +35,7 @@ a{text-decoration: none;}
 
 .icons{
   display: flex;
+  margin-bottom: 20px;
 }
 
 .icon{
