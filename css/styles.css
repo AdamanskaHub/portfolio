@@ -294,6 +294,16 @@ footer{
   margin-right: 0px;
   margin-bottom: 20px;
 }
+.hero img{
+    display: none;
+  }
+  .left{
+    width: 100vw;
+  }
+  .rect{
+    height: 40vh;
+width: 40vw;
+  }
 }
 
 @media only screen and (max-width: 400px) {
@@ -303,6 +313,28 @@ footer{
   .rect2{
     height: 40vh;
   }
+}
+
+.btn-container{
+  display: flex;
+  justify-content: center;
+}
+
+button{
+  text-transform: uppercase;
+  color: var(--titletext);
+  background-color: #FFE4D7;
+  padding: 0px 16px;
+  height: 40px;
+  font-size: 16px;
+  border: none;
+  margin-top: 10px;
+  border-radius: 58px;
+  transition: ease-in-out .5s all;
+  cursor: pointer;
+}
+button:hover{
+  background-color: #ffd4bf;
 }
 
 /* @media only screen and (min-width: 1000px) {
