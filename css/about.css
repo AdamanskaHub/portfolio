@@ -15,13 +15,14 @@ a{text-decoration: none;}
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  min-height: 95vh;
+  min-height: calc(100vh - 100px);
   height: 650px;
-  background-color: transparent;
+  background: linear-gradient(126.81deg, rgba(255, 199, 212, 0.15) 17.53%, rgba(255, 228, 215, 0.15) 81.66%);
 }
 
 #profilepic{
-  max-width: 180px;
+  /* max-width: 180px; */
+  max-width: 30vh;
   border-radius: 200px;
   position:static;
   margin-bottom: 20px;
