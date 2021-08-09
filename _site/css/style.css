@@ -365,10 +365,16 @@ button{
   margin-top: 10px;
   transition: ease-in-out .5s all;
   cursor: pointer;
-  border: 2px solid var(--text);
+  border: 1px solid var(--text);
 }
 button:hover{
   background-color: #ffd4bf;
+}
+
+#big-btn{
+  margin-top: 20px;
+  font-size: 24px;
+  background: linear-gradient(125deg, rgba(255, 199, 212, .7) 17.53%, rgba(255, 228, 215, .7) 81.66%);
 }
 
 /* @media only screen and (min-width: 1000px) {
