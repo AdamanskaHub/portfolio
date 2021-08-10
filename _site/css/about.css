@@ -50,8 +50,9 @@ svg>path{
   fill:var(--titletexthover);
 }
 
-@media only screen and (max-width: 600px) {
+@media (max-width: 600px) {
   .about-hero{
-    height: 600px;
+    height: auto;
+    padding: 40px 20px;
   }
 }

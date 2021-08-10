@@ -300,23 +300,29 @@ footer{
   .left-padding{
     padding: 0;
   }
+  .rect{
+    width: 250px !important;
+    height: 250px !important;
+  }
 }
 
 @media  (max-width: 600px) {
   body{overflow-x: hidden !important;}
+  .hero-container{
+    margin: 40px 0;
+  }
   .project-left{
     flex-direction: column;
     justify-content: center;
+    padding-top: 80px;
+    padding-bottom: 0px;
   }
   .case-image{
   width: 100%;
-  margin-bottom: 20px;
+  margin-bottom: 40px;
   }
   .project-one{
-    width: 90%;
     margin: 0 auto;
-    left: 50%;
-    transform: translate(-50%, -50%);
   }
   .project-reversed{
     width: 90%;
