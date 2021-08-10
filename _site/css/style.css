@@ -300,6 +300,9 @@ footer{
   .left-padding{
     padding: 0;
   }
+  .left-container{
+    margin: 0;
+  }
   .rect{
     width: 250px !important;
     height: 250px !important;
