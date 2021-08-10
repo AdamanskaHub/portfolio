@@ -101,7 +101,7 @@ a{text-decoration: none;}
 
 .hero{
   box-sizing: border-box;
-  height: calc(100vh - 100px);
+  min-height: calc(100vh - 100px);
   padding: 10px 30px;
   display: flex;
   justify-content: center;
@@ -168,7 +168,7 @@ a{text-decoration: none;}
 .project-left{
   box-sizing: border-box;
   padding:30px;
-  height: 95vh;
+  min-height: 95vh;
   display: flex;
   align-items: center;
 }
@@ -336,7 +336,7 @@ footer{
   }
   .rect{
     height: 40vh;
-    width: 40vw;
+    width: 40vh;
   }
 }
 
