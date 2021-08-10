@@ -277,7 +277,7 @@ footer{
 }
 
 
-@media only screen and (max-width: 780px) {
+@media  (max-width: 780px) {
   .hero-title{
     font-size: 80px;
     line-height: 75px;
@@ -302,7 +302,7 @@ footer{
   }
 }
 
-@media only screen and (max-width: 600px) {
+@media  (max-width: 600px) {
   body{overflow-x: hidden !important;}
   .project-left{
     flex-direction: column;
@@ -340,7 +340,7 @@ footer{
   }
 }
 
-@media only screen and (max-width: 400px) {
+@media  (max-width: 400px) {
   .rect{
     height: 30vh;
   }
@@ -377,7 +377,7 @@ button:hover{
   background: linear-gradient(125deg, rgba(255, 199, 212, .7) 17.53%, rgba(255, 228, 215, .7) 81.66%);
 }
 
-/* @media only screen and (min-width: 1000px) {
+/* @media  (min-width: 1000px) {
   .rect{
     height: 65vh;
   }
